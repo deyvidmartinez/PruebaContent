@@ -1,0 +1,55 @@
+﻿@model PruebaItehl_DeyvidMartinez.Models.Curso
+@Styles.Render("~/Content/Bootstrap.css")
+@Styles.Render("~/Content/EstilosIndex.css")
+@Styles.Render("~/Content/estilos.css")
+@Styles.Render("~/Content/Site.css")
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<head>
+    <title>Eliminar Curso</title>
+</head>
+<body class="fondotabla">
+    <div class="row">
+        <div class="col-sm-12">
+            <div>
+                <div class="titulo-detalles">
+                    <h1>¿Quieres eliminar este Curso?</h1>
+                </div>
+                <hr />
+                <br />
+                <div class="row">
+                    <div class="col-sm-6" style="left:25%">
+                        <table class="tabla-detal-inscp">
+                            <tr><th><b>@Html.DisplayNameFor(model => model.Curs_Nom)    </b></th><td>@Html.DisplayFor(model => model.Curs_Nom)</td></tr>
+                            <tr><th><b>@Html.DisplayNameFor(model => model.Curs_Desc)    </b></th><td>@Html.DisplayFor(model => model.Curs_Desc)</td></tr>
+                            <tr><th><b>@Html.DisplayNameFor(model => model.Curs_Costo)    </b></th><td>@Html.DisplayFor(model => model.Curs_Costo)</td></tr>
+                            <tr><th><b>@Html.DisplayNameFor(model => model.Curs_Direc)    </b></th><td>@Html.DisplayFor(model => model.Curs_Direc)</td></tr>
+                            <tr><th><b>@Html.DisplayNameFor(model => model.Pais.Pais_Nom)    </b></th><td>@Html.DisplayFor(model => model.Pais.Pais_Nom)</td></tr>
+                            <tr><th><b>@Html.DisplayNameFor(model => model.Ciudad.Ciud_Nom)   </b></th><td>@Html.DisplayFor(model => model.Ciudad.Ciud_Nom)</td></tr>
+                            <tr><th><b>@Html.DisplayNameFor(model => model.Modalidad.Moda_Nom)</b></th><td>@Html.DisplayFor(model => model.Modalidad.Moda_Nom)</td></tr>
+
+                        </table>
+                        <br />
+                        <hr />
+                        <br />
+                        @using (Html.BeginForm())
+                        {
+                            @Html.AntiForgeryToken()
+                            <div class="row" style="left:-20px">
+                                <div class="form-actions col-sm-6">
+                                    <input type="submit" value="Eliminar" class="btn btn-default" />
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="~/Cursos/Index"><input type="button" class="btn btn-warning centrar-contenido" value="Volver" /></a>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

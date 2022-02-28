@@ -1,0 +1,129 @@
+﻿@{
+    ViewBag.Title = "Prueba ITEHL";
+}
+@Styles.Render("~/Content/EstilosIndex.css")
+@Styles.Render("~/Content/estilos.css")
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <title>Vista Admin</title>
+</head>
+<body class="fondoprueba">
+    <br>
+    <style type="text/css">
+    </style>
+    <div>
+        <h1 class="col-sm-12 tituloprueba">Prueba ITEHL - Deyvid Martinez</h1>
+    </div>
+    <div class="box">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+
+                    <div class="box-part text-center fadeIn first">
+                        <i class="fas fa-globe-americas fa-5x"></i>
+
+                        <br>
+                        <div class="title">
+                            <h3>Paises</h3>
+                        </div>
+
+                        <div class="text">
+                            <br />
+                            @Html.ActionLink("Crear Pais", "Create", "Pais")
+                            <br />
+                            @Html.ActionLink("Lista de Paises", "Index", "Pais")
+                            <br />
+                        </div>
+
+                        
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-1">
+
+                    <div class="box-part text-center fadeIn second">
+
+                        <i class="fas fa-city fa-5x"></i>
+
+                        <div class="title">
+                            <h3>Ciudades</h3>
+                        </div>
+
+                        <div class="text">
+                            <br />
+                            @Html.ActionLink("Crear Ciudad", "Create", "Ciudads")
+                            <br />
+                            @Html.ActionLink("Lista de Ciudades", "Index", "Ciudads")
+                            <br />
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+
+                    <div class="box-part text-center fadeIn third">
+
+                        <i class="fas fa-clipboard-list fa-5x"></i>
+
+                        <div class="title">
+                            <h3>Cursos</h3>
+                        </div>
+
+                        <div class="text">
+                            <br />
+                            @Html.ActionLink("Crear Curso", "Create", "Cursos")
+                            <br />
+                            @Html.ActionLink("Lista de Cursos", "Index", "Cursos")
+                            <br />
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+
+                    <div class="box-part text-center fadeIn fourth">
+                        <i class="fas fa-wifi fa-5x"></i>
+                        
+                        <br>
+                        <div class="title">
+                            <h3>Modalidad</h3>
+                        </div>
+
+                        <div class="text">
+                            <br />
+                            @Html.ActionLink("Crear Modalidad", "Create", "Modalidads")
+                            <br />
+                            @Html.ActionLink("Lista de Modalidades", "Index", "Modalidads")
+                            <br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

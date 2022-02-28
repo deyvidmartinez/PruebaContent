@@ -1,0 +1,85 @@
+﻿@model PruebaItehl_DeyvidMartinez.Models.Curso
+@Styles.Render("~/Content/Bootstrap.css")
+@Styles.Render("~/Content/EstilosIndex.css")
+@Styles.Render("~/Content/estilos.css")
+@Styles.Render("~/Content/Site.css")
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detalles</title>
+</head>
+<body>
+    <div>
+        <h4>Curso</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Ciudad.Ciud_Nom)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Ciudad.Ciud_Nom)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Modalidad.Moda_Nom)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Modalidad.Moda_Nom)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Pais.Pais_Nom)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Pais.Pais_Nom)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Curs_Nom)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Curs_Nom)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Curs_Desc)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Curs_Desc)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Curs_Costo)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Curs_Costo)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Curs_Direc)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Curs_Direc)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Editar", "Edit", new { id = Model.Curs_Id }) |
+        @Html.ActionLink("Regresar", "Index")
+    </p>
+</body>
+</html>

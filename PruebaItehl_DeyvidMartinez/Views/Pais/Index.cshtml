@@ -1,0 +1,50 @@
+﻿@model IEnumerable<PruebaItehl_DeyvidMartinez.Models.Pais>
+@Styles.Render("~/Content/Bootstrap.css")
+@Styles.Render("~/Content/EstilosIndex.css")
+@Styles.Render("~/Content/estilos.css")
+@Styles.Render("~/Content/Site.css")
+@{
+    Layout = null;
+}
+<head>
+    <title>Paises</title>
+</head>
+<body class="fondotabla">
+    <br />
+    <br />
+    <div class="titulo-index">
+        <h1 class="col-sm-6">PAISES</h1>
+    </div>
+    <hr />
+    <div class="container">
+        <table class="tabla-index table-hover table-dark">
+            <tr class="bg-warning text-white text-center">
+                <th scope="col" style="border: none;">
+                    @Html.DisplayNameFor(model => model.Pais_Nom)
+                </th>
+                <th style="border: none;"></th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr class="text-center col-xl-6 col-sm-4">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Pais_Nom)
+                    </td>
+                    <td>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-warning">@Html.ActionLink("Editar", "Edit", new { id = item.Pais_Id }) | </button>
+                            @*<button type="button" class="btn btn-warning">@Html.ActionLink("Detalles", "Details", new { id = item.Pais_Id }) |</button>*@
+                            <button type="button" class="btn btn-warning">@Html.ActionLink("Eliminar", "Delete", new { id = item.Pais_Id })</button>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </table>
+        <div style="align-content:center">
+            <a href="~/Pais/Create"><input type="button" class="btn btn-warning centrar-contenido" value="Crear Pais" /></a>
+            <a href="~/Home/Index"><input type="button" class="btn btn-warning centrar-contenido" value="Regresar" /></a>
+        </div>
+
+    </div>
+</body>
+

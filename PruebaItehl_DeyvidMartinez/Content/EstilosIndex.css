@@ -1,0 +1,62 @@
+﻿body {
+    background: #f2f2f2;
+    font-family: 'Comic Sans MS', arial;
+}
+
+h3 {
+    font-family: 'Comic Sans MS', arial;
+}
+
+.box {
+    padding: 60px 0px;
+}
+
+.box-part {
+    background: #FFF;
+    border-radius: 10px;
+    padding: 60px 10px;
+    margin: 30px 0px;
+}
+
+    .box-part:hover {
+        background: #000;
+    }
+
+.tittle {
+    margin-top: -4em;
+}
+
+.box-part:hover .fas,
+.box-part:hover .title,
+.box-part:hover .text,
+.box-part:hover a {
+    color: #FFF;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.text {
+    margin: 20px 0px;
+}
+
+.fas {
+    color: #dc3545;
+}
+.fondoprueba {
+    background-image: url(images/fondo.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.tituloprueba {
+    color: #fff;
+    text-align: center;
+}
+.fondotabla {
+    background-image: url(images/fondo2.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}

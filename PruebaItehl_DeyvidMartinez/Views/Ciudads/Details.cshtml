@@ -1,0 +1,37 @@
+﻿@model PruebaItehl_DeyvidMartinez.Models.Ciudad
+@Styles.Render("~/Content/Bootstrap.css")
+@Styles.Render("~/Content/EstilosIndex.css")
+@Styles.Render("~/Content/estilos.css")
+@Styles.Render("~/Content/Site.css")
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detalles</title>
+</head>
+<body>
+    <div>
+        <h4>Ciudad</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Ciud_Nom)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Ciud_Nom)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Editar", "Edit", new { id = Model.Ciud_Id }) |
+        @Html.ActionLink("Regresar", "Index")
+    </p>
+</body>
+</html>

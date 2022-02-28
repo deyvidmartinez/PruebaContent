@@ -1,0 +1,701 @@
+﻿body {
+    width: 100%;
+}
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    width: 100%;
+}
+
+
+#fondo {
+    /* The image used */
+    /*background-image: url("images/background.png");*/
+    /* Full height */
+    height: 10%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+#logoutForm {
+    margin-left: 15em;
+}
+/*Propiedades para el layout principal de la pagina*/
+.layout {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    padding: 0.5%;
+    justify-content: center;
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #000000, #434343); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.layoutlogo img {
+    display: flex;
+    max-width: 100%;
+    height: 95%;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    padding: 0.5%;
+    justify-content: center;
+    background: #434343; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*Propiedades para la el div que contiene los botones de registro e inicio de sesion*/
+.loginindex {
+    font-family: 'Comic Sans MS', arial;
+    padding-top: 30px
+}
+
+.registrocontenedor {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    padding: 0.5%;
+    margin-right: -4px;
+    /*justify-content: center;*/
+    background-color: #131212;
+}
+
+.imagenregistro img {
+    display: block;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 1%;
+}
+
+.tituloregindex {
+    font-family: 'Comic Sans MS', arial;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 45px;
+    color: #131212
+}
+
+.text-reg-index {
+    font-family: 'Comic Sans MS', arial;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #131212;
+    text-align: justify;
+}
+
+.fondo-reg-padre {
+    background-image: url(images/Regis-padre.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+}
+
+.texto-contenido {
+    font-family: 'Comic Sans MS', arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+    .texto-contenido h1 {
+        font-family: 'Comic Sans MS', arial;
+        font-size: 20px;
+        color: #000000;
+    }
+
+.cedula {
+    width: 100%;
+}
+/*Vista Login*/
+.fondologin {
+    background-image: url(images/fondologin.jpg);
+    background-size: 100%;
+}
+
+.fondoBanner {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.contenedorImagen {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+    .contenedorImagen img {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
+.contenedorMenu {
+    display: flex;
+    width: 80%;
+    float: left;
+    margin: auto;
+}
+
+.contenedorPrincipal {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.primerContenedor {
+    width: 50%;
+    font-family: 'Comic Sans MS', arial;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(235,210,82,1) 0%, rgba(242,242,61,1) 35%, rgba(242,173,0,1) 51%, rgba(235,210,47,1) 71%, rgba(253,239,2,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(235,210,82,1)), color-stop(35%, rgba(242,242,61,1)), color-stop(51%, rgba(242,173,0,1)), color-stop(71%, rgba(235,210,47,1)), color-stop(100%, rgba(253,239,2,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(235,210,82,1) 0%, rgba(242,242,61,1) 35%, rgba(242,173,0,1) 51%, rgba(235,210,47,1) 71%, rgba(253,239,2,1) 100%);
+    background: radial-gradient(ellipse at center, #dc3545 0%, #dc3545cf 35%, #dc3545de 51%, #dc3545bf 71%, #dc3545 100%);
+    overflow: hidden;
+    padding: 20px;
+    border: 2px solid #dc3545;
+}
+
+.imagenesEmpresariales {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    padding: 0.2%;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.fotterPrincipal {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0.5%;
+    justify-content: center;
+    background: #434343; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+    .fotterPrincipal p {
+        font-size: 18px;
+    }
+
+.segundoContenedor {
+    display: block;
+    background: rgba(89,89,89,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(89,89,89,1) 0%, rgba(102,102,102,1) 0%, rgba(83,83,83,1) 33%, rgba(73,73,73,1) 49%, rgba(58,58,58,1) 75%, rgba(43,43,43,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(89,89,89,1)), color-stop(0%, rgba(102,102,102,1)), color-stop(33%, rgba(83,83,83,1)), color-stop(49%, rgba(73,73,73,1)), color-stop(75%, rgba(58,58,58,1)), color-stop(100%, rgba(43,43,43,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(89,89,89,1) 0%, rgba(102,102,102,1) 0%, rgba(83,83,83,1) 33%, rgba(73,73,73,1) 49%, rgba(58,58,58,1) 75%, rgba(43,43,43,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(89,89,89,1) 0%, rgb(0, 0, 0) 0%, rgb(70, 66, 66) 33%, rgb(45, 43, 43) 49%, rgb(25, 18, 18) 75%, rgb(2, 2, 2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#595959', endColorstr='#2b2b2b', GradientType=1 );
+    width: 50%;
+    float: left;
+    padding: 2%;
+}
+
+.imagenFormulario img {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    margin: auto;
+    padding: 1%;
+}
+
+.formularioIngreso form {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+.titulosPrincipal {
+    font-family: 'Comic Sans MS', arial;
+    font-weight: bolder;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    background-color: #dc3545;
+    padding: 1%;
+    margin-bottom: 3%;
+    margin: 0% 0% 0% -20px;
+}
+
+.contenedorCrear {
+    display: block;
+    width: 65%;
+    margin: auto;
+    padding: 2%;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #dc3545;
+    border: none;
+    color: #000000;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+    input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+        background-color: #000000;
+        color: white;
+        font-weight: bold;
+    }
+
+    input[type=button]:active, input[type=submit]:active, input[type=reset], input[type=email]:active {
+        -moz-transform: scale(0.95);
+        -webkit-transform: scale(0.95);
+        -o-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95);
+    }
+
+input[type=text], input[type=password], input[type=email] {
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 85%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+    input[type=text], input[type=email]:focus {
+        background-color: #fff;
+        border-bottom: 2px solid #dc3545;
+    }
+
+    input[type=text], input[type=email]:placeholder {
+        color: #cccccc;
+    }
+
+    input[type=password]:focus {
+        background-color: #fff;
+        border-bottom: 2px solid #dc3545;
+    }
+
+    input[type=password]:placeholder {
+        color: #cccccc;
+    }
+
+.imagenPrincipal {
+    position: relative;
+}
+
+.titulosPrincipales {
+    position: absolute;
+    color: #Fff;
+    margin: auto;
+    margin: 8% 0% 2% 5%;
+}
+
+    .titulosPrincipales h1 {
+        font-family: 'Comic Sans MS', arial;
+        font-weight: bold;
+        font-size: 48px;
+        /*padding-top: 30px*/
+    }
+
+    .titulosPrincipales h4 {
+        font-family: 'Comic Sans MS', arial;
+        font-weight: bold;
+        font-size: 20px;
+        color: #000000;
+        text-align: center;
+    }
+
+.centrarSub {
+    font-family: 'Comic Sans MS', arial;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    /*padding-top: 15px*/
+    /*letter-spacing: 15px;*/
+}
+
+.centrar-contenido {
+    position: relative;
+    left: 40%;
+}
+
+.scroll {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.plegable {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 500ms ease-out;
+    -moz-transition: max-height 500ms ease-out;
+    -o-transition: max-height 500ms ease-out;
+    transition: max-height 500ms ease-out;
+}
+
+    .plegable.desplegado {
+        max-height: 1000px;
+        -webkit-transition: max-height 500ms ease-out;
+        -moz-transition: max-height 500ms ease-out;
+        -o-transition: max-height 500ms ease-out;
+        transition: max-height 500ms ease-out;
+        overflow: auto;
+    }
+
+.formularioRegistro {
+    font-family: 'Comic Sans MS', arial;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+    .formularioRegistro input[type=text], input[type=password], input[type=email] {
+        width: 85%;
+        height: 20%
+    }
+/*Vista Index Admin*/
+.fondoadmin {
+    background-image: url(images/fondo-index-Admin.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/*Fin Vista Index Admin*/
+.fondo-pag-construccion {
+    background-image: url(images/paginaconsturccion.jpg);
+    background-size: 100%;
+}
+/*Vista Index Padre*/
+.fondo-padre-index {
+    background-image: url(images/fondo-index-padre.jpg);
+    background-size: 100%;
+}
+/*Fin Vista Index padre*/
+
+/*Vista registro hijo*/
+.fondo-reg-hijo {
+    background-image: url(images/Regis-hijo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+}
+
+.contenedorlogos {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    padding: 0.2%;
+    justify-content: center;
+    background-color: #fff;
+    margin: 160% 0% 0% 1%;
+    bottom: 0px;
+}
+
+.titulo-index {
+    font-family: 'Comic Sans MS', arial;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+    .titulo-index h1 {
+        font-size: 30px;
+        color: #ffffff;
+        left: 27.5%;
+        border-bottom: solid 3px #dc3545;
+        padding: 10px;
+        box-shadow: 0 8px 5px -2px #585856;
+        border-radius: 5px 0px 0px 0px;
+    }
+
+.tabla-index {
+    font-family: 'Comic Sans MS', arial;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+    .tabla-index th {
+        font-family: 'Comic Sans MS', arial;
+        font-size: 16px;
+        color: #000000;
+        background-color: #dc3545;
+        padding: 0.75rem;
+        vertical-align: middle;
+        width: 30px;
+        border-bottom: solid 1px #434343;
+    }
+
+    .tabla-index td {
+        font-family: 'Comic Sans MS', arial;
+        font-size: 16px;
+        font-weight: 100;
+        color: #ffffff;
+        padding: 0.75rem;
+        vertical-align: middle;
+        border-bottom: solid 1px #434343;
+        width: 30%;
+    }
+
+.text-editar {
+    font-family: 'Comic Sans MS', arial;
+    padding-top: 30px;
+    font-size: 16px;
+    color: #131212;
+    text-align: justify;
+}
+
+.titulo-editar {
+    font-family: 'Comic Sans MS', arial;
+    font-weight: bolder;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    background-color: #dc3545;
+    padding: 1%;
+    margin-bottom: 3%;
+    margin: 0px -20px 0px -20px;
+}
+
+.btn-edit-hijo {
+    background-color: #dc3545;
+    border: none;
+    color: #000000;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 10px 30px 0 #585856;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.titulo-detalles {
+    font-family: 'Comic Sans MS', arial;
+    font-weight: bolder;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    background-color: #dc3545;
+    padding: 1%;
+    margin-bottom: 3%;
+    margin: 0px -4% 0px -16px;
+    box-shadow: 0 8px 5px -2px #585856;
+    border-radius: 5px 0px 0px 0px;
+}
+
+.titulo-crear {
+    font-family: 'Comic Sans MS', arial;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    background-color: #dc3545;
+    padding: 1%;
+    margin-bottom: 3%;
+    margin: 0px -30px 2px -16px;
+}
+/*Fin Vista registro hijo*/
+.fondo-tabla {
+    background-image: url(images/tablas.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*Vista hijo index*/
+.fondo-index-hijo {
+    background-image: url(images/tablas.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+}
+
+.tabla-detalles {
+    font-family: 'Comic Sans MS', arial;
+    background-color: #ffffff;
+    text-align: left;
+    width: 100%;
+    box-shadow: 0 10px 30px 0 #585856;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+    .tabla-detalles td {
+        background-color: #323232;
+        border-bottom: solid 1px #434343;
+        color: white;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .tabla-detalles th {
+        background-color: #dc3545;
+        border-bottom: solid 1px #434343;
+        color: #000000;
+        padding: 10px;
+        width: 100%;
+    }
+/*Fin Vista hijo index*/
+
+/*Inicio Vistas Inscripcion*/
+.tabla-detal-inscp {
+    font-family: 'Comic Sans MS', arial;
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+    margin-left: 0.5%;
+    box-shadow: 0 10px 30px 0 #585856;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+    .tabla-detal-inscp th {
+        background-color: #dc3545;
+        border-bottom: solid 1px #434343;
+        color: #000000;
+        padding: 10px;
+        width: 50%;
+    }
+
+    .tabla-detal-inscp td {
+        background-color: #323232;
+        border-bottom: solid 1px #434343;
+        color: white;
+        padding: 10px;
+        width: 50%;
+        text-align: center;
+    }
+/*Fin Vistas Inscripcion*/
+
+/*Inicio Vistas Recibo*/
+
+.pago {
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+    .pago h6, h5 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .pago input[type=number] {
+        border: none;
+        border-top: 2px solid #808080;
+        border-bottom: 2px solid #808080;
+        width: 13em;
+        height: 15px
+    }
+
+    .pago input[type=text] {
+        border: none;
+        border-top: 2px solid #808080;
+        border-bottom: 2px solid #808080;
+        height: 15px
+    }
+
+    .pago button[type="button"]:not(:disabled) {
+        cursor: pointer;
+    }
+
+.btn-warning {
+    color: #000000;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.pago btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-recibo {
+    margin: 50px 270px;
+}
+
+.label-banco {
+    width: 400px;
+    margin-top: 10px;
+    align-content: center;
+    font-weight: bold;
+}
+
+/*Fin Vistas Recibo*/
+
+/* Vistas Paginacion*/
+.pagination li a {
+    background: #dc3545;
+    padding: 10px;
+    margin: 0px 2px 3px 0px;
+}
+/*Fin Vistas paginación*/
+
